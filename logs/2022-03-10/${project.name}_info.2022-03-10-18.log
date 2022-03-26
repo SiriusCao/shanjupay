@@ -1,0 +1,38 @@
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:00:05,601 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:00:35,618 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:01:05,631 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:57:58,098 INFO [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:48] -  [DUBBO] Initial connection to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.100.1:0 -> /192.168.100.1:20890]], dubbo version: 2.7.3, current host: 192.168.100.1
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:57:58,127 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.100.1:0 -> /192.168.100.1:20890]], dubbo version: 2.7.3, current host: 192.168.100.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.100.1:20890/com.shanjupay.merchant.api.MerchantService?anyhost=true&application=merchant-application&bean.name=ServiceBean:com.shanjupay.merchant.api.MerchantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.shanjupay.merchant.api.MerchantService&lazy=false&methods=queryMerchantById,createMerchant&path=com.shanjupay.merchant.api.MerchantService&pid=19712&protocol=dubbo&qos.enable=false&qos.port=22310&register=true&register.ip=192.168.100.1&release=2.7.3&remote.application=merchant-service&retries=-1&side=consumer&sticky=false&timeout=3000&timestamp=1646899140717) failed to connect to server /192.168.100.1:20890, error message is:No route to host: no further information: /192.168.100.1:20890
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.100.1:20890
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	... 11 more
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:57:59,089 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:58:29,105 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:58:58,582 INFO [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:48] -  [DUBBO] Initial connection to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.100.1:0 -> /192.168.100.1:20890]], dubbo version: 2.7.3, current host: 192.168.100.1
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:58:58,584 INFO [dubbo-client-idleCheck-thread-1][NettyClient.java:142] -  [DUBBO] Close old netty channel [id: 0xa29183db, L:/192.168.100.1:2850 ! R:/192.168.100.1:20890] on create new netty channel [id: 0x56550b6d, L:/192.168.100.1:6885 - R:/192.168.100.1:20890], dubbo version: 2.7.3, current host: 192.168.100.1
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:58:58,584 INFO [dubbo-client-idleCheck-thread-1][AbstractClient.java:199] -  [DUBBO] Succeed connect to server /192.168.100.1:20890 from NettyClient 192.168.100.1 using dubbo version 2.7.3, channel is NettyChannel [channel=[id: 0x56550b6d, L:/192.168.100.1:6885 - R:/192.168.100.1:20890]], dubbo version: 2.7.3, current host: 192.168.100.1
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:58:59,115 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:59:29,122 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-03-10 18:59:59,131 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services

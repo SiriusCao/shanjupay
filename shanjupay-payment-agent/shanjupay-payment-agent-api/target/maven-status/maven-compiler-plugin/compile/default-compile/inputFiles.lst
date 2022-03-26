@@ -1,0 +1,14 @@
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\PaymentResponseDTO.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\conf\AliConfigParam.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\PaymentBillDTO.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\AlipayBCScanBean.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\conf\WXConfigParam.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\AlipayBean.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\TradeStatus.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\WeChatBean.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\CommonPayStatusDTO.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\PayChannelAgentService.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\OrderDTO.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\WeChatBeanScan.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\TradeCreateResponse.java
+D:\files\java\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\GoodsDetail.java
