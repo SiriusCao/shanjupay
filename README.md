@@ -1,0 +1,3 @@
+黑马程序员的闪聚支付项目的后端部分，除Sass身份认证功能之外，其他功能均已实现
+
+采用Spring Cloud Alibaba微服务架构，Dubbo RPC完成微服务远程调用，nacos作为注册中心和配置中心，系统微服务基于SpringBoot开发，使用MybatisPlus持久层接口实现，业务数据持久化采用MariaDB，使用Swagger接口规范组件，采用第三方云平台七牛云完成文件上传，数据缓存采用Redis，消息队列采用RocketMQ，使用gateway完成路由转发等功能
